@@ -6,7 +6,7 @@ BOT_TOKEN = "7983450617:AAGI0cErLXI7StsL0HZiJSttEuf8BjwZ_Dw"
 
 # /start 命令的处理函数
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("👋 你好，我是肤浅机器人！")
+    await update.message.reply_text("👋 你好，星言！")
 
 # /help 命令的处理函数
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
